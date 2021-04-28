@@ -7,7 +7,8 @@ As an example, consider the effect of being more aggressive and swinging at 2-1 
 This interaction between terminal pitch counts means finding an optimal change is somewhat more involved than simply finding the largest coefficient in the linear model.  At the same time, if we want to make a cummulative percentage change in the batting strategy of a team, intuitively it makes more sense to apply a series of transformation on one terminal pitch count at a time.
 
 <p align="center">
- <img src="https://i.imgur.com/HP84frc.png" width="504" height="288">
+ <img src="https://i.imgur.com/il5bS8Z.png" width="504" height="288">
+ <img src="https://i.imgur.com/IanWOFC.jpg" width="296" height="278">
 </p>
 
 
