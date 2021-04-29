@@ -16,13 +16,13 @@ Starting with all play-by-play data files from the 2000 to 2009 MLB seasons, we 
 With the model in hand, we can look at any specific team's terminal pitch count data, which describes the team's overall hitting strategy.
 
 <p align="center">
- <img src="https://i.imgur.com/il5bS8Z.png" width="504" height="288">
+ <img src="https://i.imgur.com/rjQ9wRj.png" width="504" height="288">
 </p>
 
 Using matrix transformations, we are then able to simulateously check all single pitch count modified strategies (accounting for the inter-pitch count effects previously mentioned) we can then find which strategy results in the largest improvement of a team.
 
 <p align="center">
- <img src="https://i.imgur.com/IanWOFC.jpg" width="296" height="278">
+ <img src="https://i.imgur.com/GSG3LDe.jpg" width="604" height="127">
 </p>
 
 
