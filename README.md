@@ -8,8 +8,20 @@ Returning to the problem at hand, consider the effect of being more aggressive a
 
 We account for these effects by systematically imposing that the sum of these changes is zero.  In doing so, we are not fundamentally adding more at-bats to a team, but instead adjusting how a team approaches the at-bats they are given.  This interaction between terminal pitch counts means finding an optimal change is somewhat more involved than simply finding the largest coefficient in the linear model.
 
+
+### General Methodology
+
+Starting with all play-by-play data files from the 2000 to 2009 MLB seasons, we extract the terminal pitch counts for each team's home and away games.  We then check for clusters of different strategies so that separate analysis can be done for each cluster, although only one cluster was found for each of the home and away data.  Finally, we use a Pythagorean Expectation model of the teams' win percentages.
+
+With the model in hand, we can look at any specific team's terminal pitch count data, which describes the team's overall hitting strategy.
+
 <p align="center">
  <img src="https://i.imgur.com/il5bS8Z.png" width="504" height="288">
+</p>
+
+Using matrix transformations, we are then able to simulateously check all single pitch count modified strategies (accounting for the inter-pitch count effects previously mentioned) we can then find which strategy results in the largest improvement of a team.
+
+<p align="center">
  <img src="https://i.imgur.com/IanWOFC.jpg" width="296" height="278">
 </p>
 
