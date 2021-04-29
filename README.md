@@ -25,6 +25,8 @@ Using matrix transformations, we are then able to simulateously check all single
  <img src="https://i.imgur.com/GSG3LDe.jpg" width="604" height="127">
 </p>
 
+In this output, an aggressive change looks to increase the fraction of at-bats ending on a particular pitch count, while a patient change decreases the fraction. By default we look at a 1% change in a team's strategy, but since the models are linear in each of the pitch counts, one can scale the improvement for a large modification of the strategy.  However, the linear assumptions will eventually break down with large changes, and more accurate models would need to be implemented.  Furthermore, once a large change happens to a team's strategy, opposing teams will attempt to take advantage of these changes.  This type of backreaction on the system is currently not modelled, but would introduce interesting nonlinear effects to the model.
+
 
 #### Brief explanation of files
 
