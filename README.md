@@ -107,3 +107,9 @@ Finally, applying this analysis to more recent teams would give us access to pit
 * PythagoreanExpectation.ipynb: Notebook exploring the general problems associated with using Pythagorean Expectation as a win predictor.
 
 * PitchCountHeatmap.ipynb: Notebook to create the heatmaps found in Heatmap folder.
+
+
+#### Sources of Data
+
+* [Retrosheet](https://www.retrosheet.org/game.htm): The original play-by-play files used to find team's pitch counts, run totals, and wins.
+* [FanGraphs](https://www.fangraphs.com/): Team's plate discipline states, specifically O/Z-Swings %.
